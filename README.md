@@ -1,6 +1,6 @@
-# TravelBloom - Travel Recommendation Website
+# Travel Project Recommend- Travel Recommendation Website
 
-🌸 **TravelBloom** is a modern, interactive travel recommendation platform that helps users discover their next adventure. Built with HTML, CSS, and JavaScript, this website provides personalized destination recommendations for beaches, temples, and countries.
+🌸 **Travel Project Recommend** is a modern, interactive travel recommendation platform that helps users discover their next adventure. Built with HTML, CSS, and JavaScript, this website provides personalized destination recommendations for beaches, temples, and countries.
 
 ## 🌟 Features
 
@@ -160,4 +160,4 @@ For questions or feedback, please use the Contact Us page on the website.
 
 ---
 
-**Travel Project Recommend By Ahmad Khan** - Discover. Explore. Bloom. 🌸
+**Travel Project Recommend By Ahmad Khan** - Discover. Explore. Enjoy. ✈️
