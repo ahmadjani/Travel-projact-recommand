@@ -132,7 +132,7 @@ This website can be deployed on:
 3. Navigate to Pages section
 4. Select main branch as source
 5. Save and wait for deployment
-6. Access via `https://username.github.io/repository-name`
+6. Access via `https://ahmadjani.github.io/Travel-projact-recommand/`
 
 ## 👨‍💻 Future Enhancements
 
