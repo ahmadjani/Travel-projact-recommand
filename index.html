@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TravelBloom - Discover Your Next Adventure</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="logo">
+                <h1>🌸 TravelBloom</h1>
+            </div>
+            <ul class="nav-links">
+                <li><a href="index.html" class="active">Home</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section with Background Image -->
+    <section class="hero">
+        <div class="hero-overlay">
+            <div class="hero-content">
+                <h1 class="hero-title">Explore the World with TravelBloom</h1>
+                <p class="hero-description">Discover amazing destinations, immerse yourself in diverse cultures, and create unforgettable memories around the globe.</p>
+                
+                <!-- Search Bar -->
+                <div class="search-container">
+                    <input type="text" id="searchInput" placeholder="Search for destinations, beaches, temples, countries..." class="search-input">
+                    <button onclick="searchRecommendations()" class="search-btn">Search</button>
+                    <button onclick="clearResults()" class="clear-btn">Clear</button>
+                </div>
+
+                <button class="book-btn" onclick="window.location.href='contact.html'">Book Now</button>
+
+                <!-- Social Media Links -->
+                <div class="social-links">
+                    <a href="#" class="social-icon" aria-label="Facebook">📘</a>
+                    <a href="#" class="social-icon" aria-label="Instagram">📷</a>
+                    <a href="#" class="social-icon" aria-label="Twitter">🐦</a>
+                    <a href="#" class="social-icon" aria-label="YouTube">📺</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Introduction Section -->
+    <section class="intro-section">
+        <div class="container">
+            <h2>Welcome to TravelBloom</h2>
+            <p>Your gateway to discovering the world's most breathtaking destinations. Whether you're seeking sun-soaked beaches, ancient temples, or vibrant cities, TravelBloom helps you find the perfect destination tailored to your travel dreams. Start your journey with us today and let your wanderlust bloom!</p>
+        </div>
+    </section>
+
+    <!-- Search Results Section -->
+    <section class="results-section" id="resultsSection" style="display: none;">
+        <div class="container">
+            <h2>Search Results</h2>
+            <div id="recommendations" class="recommendations-grid"></div>
+        </div>
+    </section>
+
+    <!-- Featured Destinations -->
+    <section class="featured-section">
+        <div class="container">
+            <h2>Featured Destinations</h2>
+            <div class="featured-grid">
+                <div class="featured-card">
+                    <img src="https://images.unsplash.com/photo-1559827260-dc66d52bef19?w=600" alt="Tropical Beach">
+                    <h3>Tropical Beaches</h3>
+                    <p>Discover pristine shores and crystal-clear waters</p>
+                </div>
+                <div class="featured-card">
+                    <img src="https://images.unsplash.com/photo-1548013146-72479768bada?w=600" alt="Ancient Temple">
+                    <h3>Sacred Temples</h3>
+                    <p>Explore spiritual sites and ancient architecture</p>
+                </div>
+                <div class="featured-card">
+                    <img src="https://images.unsplash.com/photo-1488646953014-85cb44e25828?w=600" alt="City Skyline">
+                    <h3>Urban Adventures</h3>
+                    <p>Experience vibrant cities and modern wonders</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2024 TravelBloom. All rights reserved. | Discover. Explore. Bloom.</p>
+        </div>
+    </footer>
+
+    <script src="travel_recommendation.js"></script>
+</body>
+</html>
